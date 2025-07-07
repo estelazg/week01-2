@@ -1,0 +1,340 @@
+body{
+    font-family: Noto Sans TC,sans-serif;
+    line-height: 150%;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+
+.nav{
+    justify-content: space-between;
+
+}
+
+.nav a:hover{
+    color: #6c757D;
+}
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.a-c{
+    align-items: center;
+}
+.j-c{
+    justify-content: center;
+}
+
+.nav a{
+    display:block;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 12px;
+    color: black;
+}
+
+.logo{
+    height: 48px;
+}
+
+.menu li{
+    padding: 5px;
+}
+.home a{
+    color: #6c757D;
+}
+
+.product a{
+    color: #000;
+}
+
+.title{
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+}
+
+.list li{
+    width: 148px;
+    padding-bottom: 16px;
+}
+
+.list a{
+    color: #000;
+}
+
+
+.active a{
+    color: #57A203;
+    
+}
+
+.product-list{
+    flex-wrap: wrap;
+}
+
+.card{
+    padding-bottom: 48px;
+    width: 30%;
+    margin-right: 24px;
+}
+
+.pic img{
+    width: 100%;
+}
+.name{
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+}
+.price{
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+}
+
+.pagination a{
+    display: block;
+    padding: 8px 16px 8px 16px;
+    color: #000;
+}
+
+.pagination a:hover{
+    background-color:#F8F9FA;
+}
+
+.pagination-active a{
+    background-color:#C0FA73;
+}
+
+
+.sign{
+    background-color: #E8FEC5;
+    padding:24px;
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 700;;
+}
+
+.button{
+    font-size: 16px;
+    background-color:#212529;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    margin-left: 24px;
+}
+
+.footer{
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 64px;
+}
+
+.footer li a{
+    display: block;
+    padding-right: 40px;
+    color: #000;
+
+}
+.footer li a:hover{
+    color: #6c757D;
+}
+
+footer{
+    background-color: #F8F9FA;
+}
+
+.copyright{
+   color: #6C757D;
+   font-style: 14px;
+   line-height: 150%;
+   font-weight: 400; 
+   border-top: 1px solid #DEE2E6;
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 64px;
+
+}
+
+/*產品詳情頁*/
+.pt-img{
+    width: 60%;
+}
+
+.pt-info{
+    width: 40%;
+}
+.pt-img ul{
+    flex-wrap: wrap;
+}
+.pt-img li{   
+    padding: 8px;
+    width: 360px; 
+}
+
+.pt-img img{
+    display: block;
+    width: 100%;
+}
+
+.sale{
+    color: #57A203;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+}
+
+.sale span{
+    color: #ADB5BD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-decoration: line-through;
+
+}
+
+.spec{
+    margin-top: 32px;
+}
+.spec li{
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.spec img{
+    width: 64px;
+
+}
+
+.spec span{
+    color: #6C757D;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;    
+}
+.size{
+    margin-top: 32px;
+}
+
+.size ul{
+    flex-wrap: wrap;
+}
+
+.size li{
+    padding: 5px;
+}
+
+.size button{
+    padding: 12px 24px 12px 24px;
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.size button:hover{
+    border: 1px solid #6C757D;
+}
+
+.size button.active{
+    border: 1px solid #000;
+}
+
+.size button.soldout{
+    border: 1px solid #DEE2E6;
+    color: #6c757d;
+}
+
+.last{
+    font-size: 14px;
+    color: #D74F4F;
+    font-weight: 400;
+
+}
+.heart button{
+    border: 1px solid #000;
+    background-color: #fff;
+    align-items: center;
+    padding: 12px 82px 12px 82px;
+    margin-right: 8px;    
+}
+
+.heart button:hover{
+    color: #FFF;
+    border: 1px solid #fff;
+    background-color: #000;
+    align-items: center;
+    padding: 12px 82px 12px 82px;
+    margin-right: 8px; 
+    stroke: #fff;   
+}
+
+.bag button{
+    color: #FFF;
+    border: 1px solid #fff;
+    background-color: #000;
+    align-items: center;
+    padding: 12px 82px 12px 82px;   
+}
+
+.bag button:hover{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+    align-items: center;
+    padding: 12px 82px 12px 82px; 
+    stroke: #000;  
+} 
+
+.amount{
+    margin-top: 32px;
+}
+.accordion{
+    padding-bottom: 10px;
+    border-bottom:1px solid #DEE2E6;
+    margin-top: 32px;
+}
+
+.accordion p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #6c757D;
+    margin-bottom:12px ;
+
+}
+
+.card2{
+    padding-bottom: 48px;
+    width: 25%;
+    margin-right: 24px;
+}
+
+.best p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
