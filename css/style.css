@@ -114,11 +114,10 @@ h2{
     display: block;
     padding: 8px 16px 8px 16px;
     color: #000;
-    background-color: #F8F9FA;
 }
 
 .pagination a:hover{
-    background-color:#C0FA73;
+    background-color:#F8F9FA;
 }
 
 .pagination-active a{
